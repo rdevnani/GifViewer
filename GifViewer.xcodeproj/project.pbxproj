@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86CC6E7E1FCA6EB700138B18 /* Giphy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC6E7D1FCA6EB700138B18 /* Giphy.m */; };
+		86CC6E811FCA745600138B18 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CC6E801FCA745600138B18 /* DetailViewController.m */; };
 		86F4AD431FAD533F00002934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F4AD421FAD533F00002934 /* AppDelegate.m */; };
 		86F4AD491FAD533F00002934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4AD471FAD533F00002934 /* Main.storyboard */; };
 		86F4AD4B1FAD533F00002934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4AD4A1FAD533F00002934 /* Assets.xcassets */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86CC6E7C1FCA6EB700138B18 /* Giphy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Giphy.h; sourceTree = "<group>"; };
+		86CC6E7D1FCA6EB700138B18 /* Giphy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Giphy.m; sourceTree = "<group>"; };
+		86CC6E7F1FCA745600138B18 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		86CC6E801FCA745600138B18 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		86F4AD3E1FAD533F00002934 /* GifViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4AD411FAD533F00002934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86F4AD421FAD533F00002934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,8 +71,12 @@
 				86F4AD421FAD533F00002934 /* AppDelegate.m */,
 				86F4AD571FAD54DF00002934 /* CollectionViewController.h */,
 				86F4AD581FAD54DF00002934 /* CollectionViewController.m */,
+				86CC6E7F1FCA745600138B18 /* DetailViewController.h */,
+				86CC6E801FCA745600138B18 /* DetailViewController.m */,
 				86F4AD5D1FAD622C00002934 /* CollectionViewCell.h */,
 				86F4AD5E1FAD622C00002934 /* CollectionViewCell.m */,
+				86CC6E7C1FCA6EB700138B18 /* Giphy.h */,
+				86CC6E7D1FCA6EB700138B18 /* Giphy.m */,
 				86F4AD471FAD533F00002934 /* Main.storyboard */,
 				86F4AD4A1FAD533F00002934 /* Assets.xcassets */,
 				86F4AD4C1FAD533F00002934 /* LaunchScreen.storyboard */,
@@ -149,8 +159,10 @@
 			files = (
 				86F4AD511FAD533F00002934 /* main.m in Sources */,
 				86F4AD431FAD533F00002934 /* AppDelegate.m in Sources */,
+				86CC6E7E1FCA6EB700138B18 /* Giphy.m in Sources */,
 				86F4AD5F1FAD622C00002934 /* CollectionViewCell.m in Sources */,
 				86F4AD591FAD54DF00002934 /* CollectionViewController.m in Sources */,
+				86CC6E811FCA745600138B18 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

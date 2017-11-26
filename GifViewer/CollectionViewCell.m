@@ -7,18 +7,18 @@
 //
 
 #import "CollectionViewCell.h"
+#import "Giphy.h"
 
 @implementation CollectionViewCell
 
-- (void)setUrlString:(NSString *)urlString {
-    _urlString = urlString;
-    
-    [self downloadImageWithURL:urlString];
+- (void) setGiphy: (Giphy *)giphy {
+    _giphy = giphy;
+              
+    [self downloadImageWithURL:giphy.stillImageURL];
 }
 
--(void)downloadImageWithURL: (NSString*)urlString {
+-(void)downloadImageWithURL: (NSURL*)url {
     NSURLSession *session = [NSURLSession sharedSession];
-    NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url
                                 cachePolicy:NSURLRequestReturnCacheDataElseLoad
                                 timeoutInterval:60];
